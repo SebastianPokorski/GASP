@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl" ng-app="calc">
+<head>
+	<title>Mój kalkulator by GASP</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	
+<section ng-controller ='myCalc'>
+
+	<div><h1>prosty kalkulator</h1></div>
+	<div class="separator"></div>
+	<div>
+	<input type="number" placeholder="Wprowadź cyfry"  ng-model="value" autofocus>
+	</div>
+
+	<div class="btnsection">
+	<button class="btn" ng-click="clensing()">c</button>
+	<button class="btn" ng-click="math('+')">+</button>
+	<button class="btn" ng-click="math('-')">-</button>
+	<button class="btn" ng-click="math('*')">*</button>
+	<button class="btn" ng-click="math('/')">/</button>
+	<button class="btn" ng-click="sumItUp()">=</button>
+			
+	</div>
+	
+	<div id="result"><h1></h1></div>
+	<div class="results"><h1>{{results}}</h1></div>
+	<div class="separator"></div>
+	<div> w pamieci jest:</div>
+	<div class="memory">{{memory}}</div>
+</section>
+
+
+<footer>
+	created by: Sebastian Pokorski
+</footer>
+
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/ap.js"></script>
+
+	
+</body>
+</html>

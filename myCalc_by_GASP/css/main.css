@@ -1,0 +1,41 @@
+body {
+  font-family: "Lucida Console",Times, serif;
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  background: linear-gradient(#99bbff, #e6e6e6); }
+
+.btnsection {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  padding: 10px 0px 10px 10px; }
+
+.btn, footer {
+  background-color: 000000;
+  border: dotted 1px #000000;
+  border-radius: 15px 15px 15px 15px;
+  font-size: 3rem;
+  display: inline;
+  margin-top: 1rem; }
+  .btn:hover, footer:hover {
+    background-color: #4d88ff; }
+
+input {
+  text-align: center;
+  font-size: 3rem;
+  background-color: #cce6ff; }
+
+.separator {
+  background-color: #002b80;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 4rem; }
+
+.memory {
+  margin-bottom: 6rem; }
+
+footer {
+  font-size: 1rem; }
+
+/*# sourceMappingURL=main.css.map */
